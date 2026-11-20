@@ -1,8 +1,6 @@
 # Running and verifying the dashboard (real Streamlit)
 
-Final v1.3 verification: Streamlit 1.67 installed and all 17 real AppTest cases passed in the submission environment. The full suite passed 48 tests. The public read-only view is at
-https://campustrotters-innothon-2026.stormyboot512.chatgpt.site
-and was exercised after publication with scenario, year, region and tab controls.
+Final v1.4 verification: Streamlit 1.67 and all 17 real AppTest cases passed in the submission environment. The Python suite passed 48 tests. The neutral GitHub Pages address, once deployed and independently opened, is https://sashank-810.github.io/CampusTrotters-INNOTHON-2026/ . Its controls recalculate results with a browser port of the Python national and allocation model; `node web/test_live_model.js` checks baseline agreement.
 
 To rerun the Python app:
 

@@ -1,10 +1,10 @@
 # CampusTrotters — India Electricity Generation to 2047
 
-**ExxonMobil INNOTHON 2026 final submission · v1.3**
+**ExxonMobil INNOTHON 2026 final submission · v1.4**
 
-Public dashboard: https://campustrotters-innothon-2026.stormyboot512.chatgpt.site
+Public dashboard: [GitHub Pages](https://sashank-810.github.io/CampusTrotters-INNOTHON-2026/) (published from `docs/`; verify the live Pages deployment before using the link in a submission).
 
-The public dashboard is an interactive read-only view of precomputed model outputs. It changes scenario, year, region and tabs. The Python Streamlit application in `app/streamlit_app.py` additionally recomputes custom model settings. Public site source is in `web/`. The final presentation is `presentation/CampusTrotters_INNOTHON2026_FINAL_v1_3.pptx` (seven slides).
+The public dashboard recalculates GDP, elasticity, electrification, demographics, source mix, demand location, geography and hydro sensitivity directly in the browser. Its baseline was compared to the v1.2 Python model across three scenarios and 15 regional totals. The full Python Streamlit application remains in `app/streamlit_app.py`; `web/` contains the browser port and its test. The final presentation in this repository is `presentation/CampusTrotters_INNOTHON2026_FINAL_v1_3.pptx` (seven slides). The slide deck predates the neutral Pages link; use the repository and verified Pages URL as the live links.
 
 v1.3 packages and patches v1.2 without modifying its source archive or the organizer CSV; see **`CHANGELOG.md`** and **`DASHBOARD.md`**.
 
@@ -54,7 +54,7 @@ CEA-definition total. The national statistical forecast is independently fitted 
 * `python run_all.py`, `python -m pytest -q` (**48 passed**) and `python quality_gates.py`
   (`core_model_gates_passed: true`, `dashboard_real_runtime: VERIFIED`) ran with Python 3.12 and Streamlit 1.67.
   The original organizer SHA-256 is unchanged; exactly one documented source check fails (`PSAG-GR-2011`).
-* Real Streamlit AppTest passed 17 cases, including hydro infeasibility, renormalisation and all scenario and regional controls. The published read-only web view was verified in a browser with its scenario, year and region selectors.
+* Real Streamlit AppTest passed 17 cases, including hydro infeasibility, renormalisation and all scenario and regional controls. The browser model was independently compared to Python reference outputs with `node web/test_live_model.js`; the neutral public deployment must be checked separately.
 * Official PDFs were read by automated text extraction; arithmetic checks guard the transcription. Spot-check a few values.
 
 See `reports/methodology.md` for the method and `reports/mentor_questions.md` for open questions.
