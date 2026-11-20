@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v1.6 — 20 Nov 2026 (accelerated scenario input fix)
+* Allowed fractional TWh in the browser's extra-electrification input. The accelerated scenario uses 262.5 TWh, which the former whole-number step falsely rejected.
+* Verified the public Accelerated transition view at FY2046–47: 5,575 TWh domestic, 5,582 TWh CEA-definition total, 80% non-fossil, and five regional allocations summing to 5,574.7 TWh.
+
 ## v1.5 — 20 Nov 2026 (dashboard presentation)
 * Reworked the public browser dashboard into a calmer research layout with plain-language headings, larger labels and controls, and clearer notes on observed versus modelled results.
 * Kept the v1.2 equations, assumptions and source data unchanged. Rechecked the browser reference scenarios and conservation tests; independently exercised scenario switching and Reset on the production Vercel URL.
