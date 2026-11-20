@@ -63,7 +63,7 @@ function update(){
  if(solution.status!=='solved'){
    status(`Indicative hydro ceiling infeasible: ${fmt(solution.required)} TWh required versus ${fmt(solution.ceiling)} TWh ceiling. Regional chart uses a clearly labelled calculation without that ceiling; the requested constrained allocation has no solution.`,'warning');
    solution=model.allocate(M,P,s,true);
- }else status('Updated with your assumptions. National and regional totals agree.');
+ }else status('');
  const reg=solution.rows.sort((a,b)=>b.generation_twh-a.generation_twh),max=Math.max(...reg.map(x=>x.generation_twh));
  $('#regionChart').innerHTML=reg.map(x=>`<div class="barrow"><span>${names[x.region]}</span><div class="bartrack"><div class="barfill" style="width:${100*x.generation_twh/max}%"></div></div><b>${fmt(x.generation_twh)}</b></div>`).join('');
  $('#regionalTable').innerHTML=reg.map(x=>`<tr><td>${names[x.region]}</td><td>${fmt(x.generation_twh,1)}</td><td>${fmt(100*x.share_of_national,1)}%</td><td>${fmt(100*x.non_fossil_share,1)}%</td><td>${fmt(100*x.variable_re_share,1)}%</td></tr>`).join('');

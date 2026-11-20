@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v1.8 — 20 Nov 2026 (judge-facing dashboard copy)
+* Removed internal version and checksum text from the public dashboard. Kept the original dataset integrity hash and detailed checks in the repository.
+* Reworded the provenance view for readers and linked it to the repository for deeper verification.
+* Hidden routine success status; infeasibility and invalid-input warnings remain visible. Verified the live central view, provenance view and hydro warning.
+
 ## v1.6 — 20 Nov 2026 (accelerated scenario input fix)
 * Allowed fractional TWh in the browser's extra-electrification input. The accelerated scenario uses 262.5 TWh, which the former whole-number step falsely rejected.
 * Verified the public Accelerated transition view at FY2046–47: 5,575 TWh domestic, 5,582 TWh CEA-definition total, 80% non-fossil, and five regional allocations summing to 5,574.7 TWh.
