@@ -4,7 +4,7 @@
 
 **Public interactive dashboard:** https://campustrotters-innothon-2026.vercel.app/ — deployed on Vercel and tested in a public browser. The source served there is in `docs/`; see [DEPLOY_VERCEL.md](DEPLOY_VERCEL.md) for deployment details.
 
-The browser dashboard recalculates GDP, elasticity, electrification, demographics, source mix, demand location, geography and hydro sensitivity directly in the browser. Its baseline was compared to the v1.2 Python model across three scenarios and 15 regional totals. The full Python Streamlit application remains in `app/streamlit_app.py`; `web/` contains the browser port and its test. The seven-slide final presentation is `presentation/CampusTrotters_INNOTHON2026_FINAL_v1_4.pptx` and links to the public dashboard.
+The browser dashboard recalculates GDP, elasticity, electrification, demographics, source mix, demand location, geography and hydro sensitivity directly in the browser. Its baseline was compared to the v1.2 Python model across three scenarios and 15 regional totals. The full Python Streamlit application remains in `app/streamlit_app.py`; `web/` contains the browser port and its test. The revised seven-slide final presentation is [`presentation/CampusTrotters_INNOTHON2026_FINAL_v1_5.pptx`](presentation/CampusTrotters_INNOTHON2026_FINAL_v1_5.pptx) and links to the public dashboard and repository. The earlier v1.4 deck is preserved.
 
 The public dashboard's v1.5 presentation uses a plain-language research layout. A production browser check confirmed that Conservative changes domestic FY2046–47 generation to 4,435 TWh and Reset restores the 5,312 TWh central case.
 
@@ -23,7 +23,7 @@ python -m pytest -q                  # 48 passed on Python 3.12 with real Stream
 python quality_gates.py              # core-model gates + SEPARATE dashboard_real_runtime status -> outputs/quality_gates.json
 streamlit run app/streamlit_app.py   # dashboard at http://localhost:8501
 ```
-Optional – rebuild the slides: `python presentation/export_deck_data.py && node presentation/build_deck.js`
+Optional – rebuild the final slides: `python presentation/build_final_v1_5.py` (needs `python-pptx`). To rebuild the older midpoint slides: `python presentation/export_deck_data.py && node presentation/build_deck.js`
 (needs Node + `pptxgenjs`). The v1.2 deck is `presentation/INNOTHON2026_midpoint_presentation_v1_2.pptx`; earlier decks are in
 `presentation/archive_v1_0/` and `presentation/archive_v1_1/`.
 
