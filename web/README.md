@@ -1,6 +1,6 @@
 # Live browser dashboard
 
-Neutral public URL: pending Vercel deployment. See `../DEPLOY_VERCEL.md`.
+Neutral public URL: https://campustrotters-innothon-2026.vercel.app/. See `../DEPLOY_VERCEL.md`.
 
 `web/dist/` is a static browser application, but it **recalculates** national scenarios and the constrained regional allocation on every input change. It does not select precomputed output rows. The port in `live_model.js` uses data exported by `web/export_live_inputs.py` from the existing Python v1.2 code and provenance sources. The deployment-ready `docs/` directory is an exact copy of the browser assets.
 
@@ -14,4 +14,4 @@ node web/test_live_model.js
 python -m http.server 8000 --directory web/dist
 ```
 
-The test checks three national Python reference outputs, 15 regional reference totals, source conservation, changes to GDP and demographics, and a 20% hydro infeasibility case. The public browser application and its deployment must also be opened and exercised separately. The original organizer CSV is not included in static assets and remains unchanged under `data/original/`.
+The test checks three national Python reference outputs, 15 regional reference totals, source conservation, changes to GDP and demographics, and a 20% hydro infeasibility case. The public browser deployment was independently exercised for GDP changes and hydro infeasibility on 20 Nov 2026. The original organizer CSV is not included in static assets and remains unchanged under `data/original/`.

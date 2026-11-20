@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v1.4 — 20 Nov 2026 (interactive public deployment)
+* Ported the v1.2 national and regional calculations to the static browser application in `docs/`, with live controls and reference comparisons in `node web/test_live_model.js`.
+* Fixed the initial elasticity numeric field to accept the precise fitted value; the prior step restriction prevented rendering in production.
+* Deployed and exercised the neutral public Vercel URL, including GDP sensitivity, hydro infeasibility and reset. Direct deployment is not yet GitHub-connected.
+* Updated the seven-slide final deck's hyperlink to the public URL in a versioned v1.4 copy. Original data and previous deck versions remain untouched.
+
 ## v1.3 — 20 Nov 2026 (CampusTrotters final submission)
 * Preserved the original v1.2 ZIP and original organizer CSV (SHA-256 `f8f98adfc00457f3cd6033193722503fc481250d19ec37e0c692b35450d7bd4f`).
 * Fixed `tests/test_dashboard_real.py` to use an absolute app path, which recent Streamlit AppTest resolves correctly.

@@ -1,6 +1,6 @@
 # Running and verifying the dashboard (real Streamlit)
 
-Final v1.4 verification: Streamlit 1.67 and all 17 real AppTest cases passed in the submission environment. The Python suite passed 48 tests. The neutral public deployment is pending; `docs/` is ready for Vercel and `node web/test_live_model.js` checks baseline agreement.
+Public browser dashboard: https://campustrotters-innothon-2026.vercel.app/. Final v1.4 verification: Streamlit 1.67 and all 17 real AppTest cases passed in the submission environment. The Python suite passed 48 tests. `node web/test_live_model.js` checks baseline agreement. The public deployment was opened and exercised: 5,312 TWh central, 5,795 TWh when initial GDP growth was changed to 8%, and explicit infeasibility and fallback labels with 20% hydro. Reset restored the baseline. Vercel currently hosts a direct deployment of `docs/`; GitHub commits do not trigger automatic deployments.
 
 To rerun the Python app:
 

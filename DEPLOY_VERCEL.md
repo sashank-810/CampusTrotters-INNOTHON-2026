@@ -1,16 +1,17 @@
-# Publish the live dashboard on Vercel
+# Public Vercel deployment
+
+Production URL: **https://campustrotters-innothon-2026.vercel.app/**
 
 Repository: https://github.com/sashank-810/CampusTrotters-INNOTHON-2026
 
-The deployment-ready static application is in `docs/`. It recomputes national and regional results in the browser; the Streamlit/Python version remains in `app/` for reproducibility.
+The static browser application in `docs/` was deployed directly to Vercel and independently exercised in a public browser on 20 Nov 2026. It recomputes national and regional results on parameter changes. The full Streamlit/Python application remains in `app/` for reproducibility.
 
-## Vercel project settings
+The Vercel project is currently **directly deployed**, not connected to GitHub: a GitHub push does not automatically redeploy it. For future changes, connect the project to this repository in Vercel (Root Directory `docs`, Framework Preset `Other`, no Python build step) once the Vercel account's GitHub Login Connection has been enabled, or manually redeploy the five static assets in `docs/` together. Verify the production alias after each deployment. The project is public, with Vercel deployment protection disabled for this submission.
 
-1. Connect Vercel to the GitHub account that owns this repository.
-2. In Vercel, choose **Add New → Project**, then import `sashank-810/CampusTrotters-INNOTHON-2026`.
-3. Set **Root Directory** to `docs`. Select **Other** as framework preset. Leave build command and output directory at their static defaults; do not run the Python pipeline during deployment.
-4. Deploy the `main` branch. Copy the actual Production Domain shown by Vercel (usually a `vercel.app` address). Do not infer a URL from the project name.
-5. Open the public URL in a signed-out browser. Check the central FY2046–47 domestic value around **5,312 TWh**, change GDP growth and confirm the figure changes, set Hydro to **20%** and confirm the indicative-ceiling infeasibility warning, then reset.
-6. Replace deployment-pending text in `README.md` and the seven-slide deck with the verified Production Domain before submitting.
+## Public verification
+
+* Central FY2046–47: **5,312 TWh domestic** and **5,320 TWh CEA-definition total**.
+* Change initial GDP growth from 7% to 8%: domestic headline changes to **5,795 TWh** (total **5,803 TWh**); Reset returns to baseline.
+* Set hydro share to 20%: the dashboard warns that **1,062 TWh** is required against an indicative **480 TWh** ceiling. Regional strategy explicitly labels the no-ceiling fallback; it does not claim that the constrained allocation is feasible.
 
 The browser baseline is checked against v1.2 Python outputs by `node web/test_live_model.js`. The original organizer dataset is never sent to static hosting; only derived model inputs in `docs/model_inputs.json` are published. Regional physical feasibility and long-horizon statistical calibration remain unproven.

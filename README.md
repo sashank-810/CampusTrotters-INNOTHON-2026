@@ -2,11 +2,11 @@
 
 **ExxonMobil INNOTHON 2026 final submission · v1.4**
 
-Public dashboard: deployment pending on a neutral host. The browser application is ready in `docs/`; see [DEPLOY_VERCEL.md](DEPLOY_VERCEL.md). Do not use the prior branded demo URL as the final submission URL.
+**Public interactive dashboard:** https://campustrotters-innothon-2026.vercel.app/ — deployed on Vercel and tested in a public browser. The source served there is in `docs/`; see [DEPLOY_VERCEL.md](DEPLOY_VERCEL.md) for deployment details.
 
-The browser dashboard recalculates GDP, elasticity, electrification, demographics, source mix, demand location, geography and hydro sensitivity directly in the browser. Its baseline was compared to the v1.2 Python model across three scenarios and 15 regional totals. The full Python Streamlit application remains in `app/streamlit_app.py`; `web/` contains the browser port and its test. The seven-slide presentation currently in the repository is `presentation/CampusTrotters_INNOTHON2026_FINAL_v1_3.pptx`; its live-link field must be replaced with the verified neutral URL before final submission.
+The browser dashboard recalculates GDP, elasticity, electrification, demographics, source mix, demand location, geography and hydro sensitivity directly in the browser. Its baseline was compared to the v1.2 Python model across three scenarios and 15 regional totals. The full Python Streamlit application remains in `app/streamlit_app.py`; `web/` contains the browser port and its test. The seven-slide final presentation is `presentation/CampusTrotters_INNOTHON2026_FINAL_v1_4.pptx` and links to the public dashboard.
 
-v1.3 packages and patches v1.2 without modifying its source archive or the organizer CSV; see **`CHANGELOG.md`** and **`DASHBOARD.md`**.
+v1.4 packages and patches v1.2 without modifying its source archive or the organizer CSV; see **`CHANGELOG.md`** and **`DASHBOARD.md`**.
 
 Reproducible final prototype: national scenarios and conditional regional allocations of electricity
 **generated** (TWh = BU) to FY2047-48, an illustrative regional generation strategy, validation evidence and an
@@ -50,11 +50,11 @@ CEA-definition total. The national statistical forecast is independently fitted 
 * **Projections / assumptions:** TG population & urban share to 2036 (official projection), extrapolated to 2047.
 * **Model-generated:** everything in `outputs/` beginning with `national_`, `regional_`, `allocation_`.
 
-## Verification status (v1.3 final build)
+## Verification status (v1.4 final build)
 * `python run_all.py`, `python -m pytest -q` (**48 passed**) and `python quality_gates.py`
   (`core_model_gates_passed: true`, `dashboard_real_runtime: VERIFIED`) ran with Python 3.12 and Streamlit 1.67.
   The original organizer SHA-256 is unchanged; exactly one documented source check fails (`PSAG-GR-2011`).
-* Real Streamlit AppTest passed 17 cases, including hydro infeasibility, renormalisation and all scenario and regional controls. The browser model was independently compared to Python reference outputs with `node web/test_live_model.js`; the neutral public deployment must be checked separately.
+* Real Streamlit AppTest passed 17 cases, including hydro infeasibility, renormalisation and all scenario and regional controls. The browser model was independently compared to Python reference outputs with `node web/test_live_model.js`. On the public Vercel URL, central FY2046–47 displayed 5,312 TWh domestic; changing initial GDP growth from 7% to 8% displayed 5,795 TWh; changing hydro to 20% showed the 1,062 versus 480 TWh infeasibility warning and a labelled regional fallback; Reset restored the baseline.
 * Official PDFs were read by automated text extraction; arithmetic checks guard the transcription. Spot-check a few values.
 
 See `reports/methodology.md` for the method and `reports/mentor_questions.md` for open questions.
