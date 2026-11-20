@@ -5,7 +5,7 @@ const fy=y=>`FY${y-1}–${String(y).slice(-2)}`;
 const names={NR:'Northern',WR:'Western',SR:'Southern',ER:'Eastern',NER:'North-Eastern'};
 const keys=['coal','gas','nuclear','hydro','solar','wind','other_re'];
 const labels={coal:'Coal',gas:'Gas + diesel',nuclear:'Nuclear',hydro:'Hydro',solar:'Solar',wind:'Wind',other_re:'Other RE'};
-const colors={coal:'#243c52',gas:'#81909c',nuclear:'#a08dc0',hydro:'#2288b4',solar:'#f5ae50',wind:'#19a89b',other_re:'#80bd79'};
+const colors={coal:'#384e56',gas:'#8b9696',nuclear:'#927da2',hydro:'#558ba7',solar:'#d8a35a',wind:'#328d80',other_re:'#80a475'};
 const model=window.CampusTrottersModel;
 let M,P,scenario='central',year=2047,region='ALL',national=[];
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -41,10 +41,10 @@ function lineChart(){
  const points=[...h.map(x=>x.total_twh),...f.map(x=>x.total_generation_twh)],ymax=Math.ceil(Math.max(...points)/1000)*1000;
  const W=660,H=275,l=49,r=17,t=15,b=33,x=y=>l+(y-2010)/(2048-2010)*(W-l-r),y=v=>H-b-v/ymax*(H-t-b);
  const path=rows=>rows.map((p,i)=>(i?'L':'M')+x(p.fy_end_year).toFixed(1)+','+y(p.total_twh??p.total_generation_twh).toFixed(1)).join(' ');
- let g='';for(let v=0;v<=ymax;v+=1000)g+=`<line x1="${l}" x2="${W-r}" y1="${y(v)}" y2="${y(v)}" stroke="#e8eeee"/><text x="0" y="${y(v)+4}" fill="#8a9aa7" font-size="11">${fmt(v)}</text>`;
- for(let v of [2010,2018,2026,2034,2042,2048])g+=`<text x="${x(v)}" y="${H-5}" text-anchor="middle" fill="#8495a1" font-size="11">${v}</text>`;
+ let g='';for(let v=0;v<=ymax;v+=1000)g+=`<line x1="${l}" x2="${W-r}" y1="${y(v)}" y2="${y(v)}" stroke="#e5ece9"/><text x="0" y="${y(v)+4}" fill="#5e7074" font-size="11">${fmt(v)}</text>`;
+ for(let v of [2010,2018,2026,2034,2042,2048])g+=`<text x="${x(v)}" y="${H-5}" text-anchor="middle" fill="#5e7074" font-size="11">${v}</text>`;
  const cur=f.find(q=>q.fy_end_year===year);
- $('#trajectory').innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Observed generation and recalculated scenario to ${fy(year)}">${g}<path d="${path(h)}" fill="none" stroke="#efa582" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="${path([{fy_end_year:2026,total_generation_twh:h.at(-1).total_twh},...f])}" fill="none" stroke="#109b98" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><line x1="${x(year)}" x2="${x(year)}" y1="${t}" y2="${H-b}" stroke="#0d958f" stroke-dasharray="4 5" opacity=".55"/><circle cx="${x(year)}" cy="${y(cur.total_generation_twh)}" r="6" fill="#0d958f" stroke="white" stroke-width="3"/></svg>`;
+ $('#trajectory').innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Observed generation and recalculated scenario to ${fy(year)}">${g}<path d="${path(h)}" fill="none" stroke="#b77863" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="${path([{fy_end_year:2026,total_generation_twh:h.at(-1).total_twh},...f])}" fill="none" stroke="#277268" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><line x1="${x(year)}" x2="${x(year)}" y1="${t}" y2="${H-b}" stroke="#277268" stroke-dasharray="4 5" opacity=".55"/><circle cx="${x(year)}" cy="${y(cur.total_generation_twh)}" r="6" fill="#277268" stroke="white" stroke-width="3"/></svg>`;
 }
 function stack(rows,selector){
  const total=rows.reduce((a,x)=>a+x.twh,0),shown=rows.filter(x=>x.twh>1);
@@ -63,12 +63,12 @@ function update(){
  if(solution.status!=='solved'){
    status(`Indicative hydro ceiling infeasible: ${fmt(solution.required)} TWh required versus ${fmt(solution.ceiling)} TWh ceiling. Regional chart uses a clearly labelled calculation without that ceiling; the requested constrained allocation has no solution.`,'warning');
    solution=model.allocate(M,P,s,true);
- }else status('Recalculated live · national source totals and regional totals conserved.');
+ }else status('Updated with your assumptions. National and regional totals agree.');
  const reg=solution.rows.sort((a,b)=>b.generation_twh-a.generation_twh),max=Math.max(...reg.map(x=>x.generation_twh));
  $('#regionChart').innerHTML=reg.map(x=>`<div class="barrow"><span>${names[x.region]}</span><div class="bartrack"><div class="barfill" style="width:${100*x.generation_twh/max}%"></div></div><b>${fmt(x.generation_twh)}</b></div>`).join('');
  $('#regionalTable').innerHTML=reg.map(x=>`<tr><td>${names[x.region]}</td><td>${fmt(x.generation_twh,1)}</td><td>${fmt(100*x.share_of_national,1)}%</td><td>${fmt(100*x.non_fossil_share,1)}%</td><td>${fmt(100*x.variable_re_share,1)}%</td></tr>`).join('');
  const chosen=region==='ALL'?reg:reg.filter(x=>x.region===region);
- $('#selectedRegionLabel').textContent=region==='ALL'?'DOMESTIC MIX':names[region].toUpperCase();
+ $('#selectedRegionLabel').textContent=region==='ALL'?'Domestic mix':names[region];
  stack(keys.map(k=>({source:k,twh:chosen.reduce((a,x)=>a+x.bySource[k],0)})),'#regionMix');
  const sum=reg.reduce((a,x)=>a+x.generation_twh,0);
  $('#regionalNote').textContent=`${solution.status==='unconstrained_fallback'?'Hydro ceiling removed for illustration. ':''}Five allocations sum to ${fmt(sum,1)} TWh versus ${fmt(s.domestic_generation_twh,1)} TWh nationally. Physical feasibility is not established.`;

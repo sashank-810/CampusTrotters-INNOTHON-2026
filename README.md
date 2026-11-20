@@ -6,6 +6,8 @@
 
 The browser dashboard recalculates GDP, elasticity, electrification, demographics, source mix, demand location, geography and hydro sensitivity directly in the browser. Its baseline was compared to the v1.2 Python model across three scenarios and 15 regional totals. The full Python Streamlit application remains in `app/streamlit_app.py`; `web/` contains the browser port and its test. The seven-slide final presentation is `presentation/CampusTrotters_INNOTHON2026_FINAL_v1_4.pptx` and links to the public dashboard.
 
+The public dashboard's v1.5 presentation uses a plain-language research layout. A production browser check confirmed that Conservative changes domestic FY2046–47 generation to 4,435 TWh and Reset restores the 5,312 TWh central case.
+
 v1.4 packages and patches v1.2 without modifying its source archive or the organizer CSV; see **`CHANGELOG.md`** and **`DASHBOARD.md`**.
 
 Reproducible final prototype: national scenarios and conditional regional allocations of electricity

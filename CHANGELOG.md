@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v1.5 — 20 Nov 2026 (dashboard presentation)
+* Reworked the public browser dashboard into a calmer research layout with plain-language headings, larger labels and controls, and clearer notes on observed versus modelled results.
+* Kept the v1.2 equations, assumptions and source data unchanged. Rechecked the browser reference scenarios and conservation tests; independently exercised scenario switching and Reset on the production Vercel URL.
+
 ## v1.4 — 20 Nov 2026 (interactive public deployment)
 * Ported the v1.2 national and regional calculations to the static browser application in `docs/`, with live controls and reference comparisons in `node web/test_live_model.js`.
 * Fixed the initial elasticity numeric field to accept the precise fitted value; the prior step restriction prevented rendering in production.
