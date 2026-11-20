@@ -1,14 +1,14 @@
 # CampusTrotters — India Electricity Generation to 2047
 
-**ExxonMobil INNOTHON 2026 final submission · v1.4**
+**ExxonMobil INNOTHON 2026 final submission**
 
 **Public interactive dashboard:** https://campustrotters-innothon-2026.vercel.app/ — deployed on Vercel and tested in a public browser. The source served there is in `docs/`; see [DEPLOY_VERCEL.md](DEPLOY_VERCEL.md) for deployment details.
 
-The browser dashboard recalculates GDP, elasticity, electrification, demographics, source mix, demand location, geography and hydro sensitivity directly in the browser. Its baseline was compared to the v1.2 Python model across three scenarios and 15 regional totals. The full Python Streamlit application remains in `app/streamlit_app.py`; `web/` contains the browser port and its test. The revised seven-slide final presentation is [`presentation/CampusTrotters_INNOTHON2026_FINAL_v1_5.pptx`](presentation/CampusTrotters_INNOTHON2026_FINAL_v1_5.pptx) and links to the public dashboard and repository. The earlier v1.4 deck is preserved.
+The browser dashboard recalculates GDP, elasticity, electrification, demographics, source mix, demand location, geography and hydro sensitivity directly in the browser. Its baseline was compared to the v1.2 Python model across three scenarios and 15 regional totals. The full Python Streamlit application remains in `app/streamlit_app.py`; `web/` contains the browser port and its test. The revised seven-slide final presentation is [`presentation/CampusTrotters_INNOTHON2026_FINAL_v1_5.pptx`](presentation/CampusTrotters_INNOTHON2026_FINAL_v1_5.pptx) and links to the public dashboard and repository. The earlier deck is preserved.
 
 The public dashboard's v1.5 presentation uses a plain-language research layout. A production browser check confirmed that Conservative changes domestic FY2046–47 generation to 4,435 TWh and Reset restores the 5,312 TWh central case.
 
-v1.4 packages and patches v1.2 without modifying its source archive or the organizer CSV; see **`CHANGELOG.md`** and **`DASHBOARD.md`**.
+packages and patches v1.2 without modifying its source archive or the organizer CSV; see **`CHANGELOG.md`** and **`DASHBOARD.md`**.
 
 Reproducible final prototype: national scenarios and conditional regional allocations of electricity
 **generated** (TWh = BU) to FY2047-48, an illustrative regional generation strategy, validation evidence and an
@@ -52,7 +52,7 @@ CEA-definition total. The national statistical forecast is independently fitted 
 * **Projections / assumptions:** TG population & urban share to 2036 (official projection), extrapolated to 2047.
 * **Model-generated:** everything in `outputs/` beginning with `national_`, `regional_`, `allocation_`.
 
-## Verification status (v1.4 final build)
+## Verification status (final build)
 * `python run_all.py`, `python -m pytest -q` (**48 passed**) and `python quality_gates.py`
   (`core_model_gates_passed: true`, `dashboard_real_runtime: VERIFIED`) ran with Python 3.12 and Streamlit 1.67.
   The original organizer SHA-256 is unchanged; exactly one documented source check fails (`PSAG-GR-2011`).
