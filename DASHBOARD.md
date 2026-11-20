@@ -1,6 +1,6 @@
 # Running and verifying the dashboard (real Streamlit)
 
-Final v1.4 verification: Streamlit 1.67 and all 17 real AppTest cases passed in the submission environment. The Python suite passed 48 tests. The neutral GitHub Pages address, once deployed and independently opened, is https://sashank-810.github.io/CampusTrotters-INNOTHON-2026/ . Its controls recalculate results with a browser port of the Python national and allocation model; `node web/test_live_model.js` checks baseline agreement.
+Final v1.4 verification: Streamlit 1.67 and all 17 real AppTest cases passed in the submission environment. The Python suite passed 48 tests. The neutral public deployment is pending; `docs/` is ready for Vercel and `node web/test_live_model.js` checks baseline agreement.
 
 To rerun the Python app:
 

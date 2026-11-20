@@ -2,9 +2,9 @@
 
 **ExxonMobil INNOTHON 2026 final submission · v1.4**
 
-Public dashboard: [GitHub Pages](https://sashank-810.github.io/CampusTrotters-INNOTHON-2026/) (published from `docs/`; verify the live Pages deployment before using the link in a submission).
+Public dashboard: deployment pending on a neutral host. The browser application is ready in `docs/`; see [DEPLOY_VERCEL.md](DEPLOY_VERCEL.md). Do not use the prior branded demo URL as the final submission URL.
 
-The public dashboard recalculates GDP, elasticity, electrification, demographics, source mix, demand location, geography and hydro sensitivity directly in the browser. Its baseline was compared to the v1.2 Python model across three scenarios and 15 regional totals. The full Python Streamlit application remains in `app/streamlit_app.py`; `web/` contains the browser port and its test. The final presentation in this repository is `presentation/CampusTrotters_INNOTHON2026_FINAL_v1_3.pptx` (seven slides). The slide deck predates the neutral Pages link; use the repository and verified Pages URL as the live links.
+The browser dashboard recalculates GDP, elasticity, electrification, demographics, source mix, demand location, geography and hydro sensitivity directly in the browser. Its baseline was compared to the v1.2 Python model across three scenarios and 15 regional totals. The full Python Streamlit application remains in `app/streamlit_app.py`; `web/` contains the browser port and its test. The seven-slide presentation currently in the repository is `presentation/CampusTrotters_INNOTHON2026_FINAL_v1_3.pptx`; its live-link field must be replaced with the verified neutral URL before final submission.
 
 v1.3 packages and patches v1.2 without modifying its source archive or the organizer CSV; see **`CHANGELOG.md`** and **`DASHBOARD.md`**.
 

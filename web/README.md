@@ -1,8 +1,8 @@
 # Live browser dashboard
 
-Neutral public URL after GitHub Pages is enabled and deployed: https://sashank-810.github.io/CampusTrotters-INNOTHON-2026/
+Neutral public URL: pending Vercel deployment. See `../DEPLOY_VERCEL.md`.
 
-`web/dist/` is a static browser application, but it **recalculates** national scenarios and the constrained regional allocation on every input change. It does not select precomputed output rows. The port in `live_model.js` uses data exported by `web/export_live_inputs.py` from the existing Python v1.2 code and provenance sources. The deployed `docs/` directory is an exact copy of the browser assets.
+`web/dist/` is a static browser application, but it **recalculates** national scenarios and the constrained regional allocation on every input change. It does not select precomputed output rows. The port in `live_model.js` uses data exported by `web/export_live_inputs.py` from the existing Python v1.2 code and provenance sources. The deployment-ready `docs/` directory is an exact copy of the browser assets.
 
 Controls include scenario, fiscal year, CEA region, GDP growth path, elasticity, additional electrification, population/urbanization variant, urbanization effect, all seven source mix inputs, regional demand basis, demand alignment weight, geography caps, indicative hydro ceiling, population/GSDP weight and regional drift. Editing a non-coal source adjusts coal as the remainder; if non-coal entries exceed 100%, the model normalizes them and shows the entered sum. The hydro stress case correctly reports infeasibility and labels the displayed no-ceiling fallback. All regional allocations remain exploratory.
 
