@@ -1,0 +1,13 @@
+fy_label,fy_end_year,item,actual_gwh,source_id,report
+2025-26,2026,Thermal (all-India total),1307130.61,CEA_18COL_SR1_202603,Sub-Report 1 All-India Summary (Apr-Mar cumulative)
+2025-26,2026,Nuclear,55190.52,CEA_18COL_SR1_202603,Sub-Report 1 All-India Summary (Apr-Mar cumulative)
+2025-26,2026,Hydro,167203.78,CEA_18COL_SR1_202603,Sub-Report 1 All-India Summary (Apr-Mar cumulative)
+2025-26,2026,Bhutan Import,7831.24,CEA_18COL_SR1_202603,Sub-Report 1 All-India Summary (Apr-Mar cumulative)
+2025-26,2026,Total conventional incl. Bhutan,1537356.15,CEA_18COL_SR1_202603,Sub-Report 1 All-India Summary (Apr-Mar cumulative)
+2025-26,2026,Coal based (all-India total),1250338.80,CEA_18COL_SR11_202603,Sub-Report 11 Fuel-wise details Coal/Lignite/Multi-fuel
+2025-26,2026,Lignite based (all-India total),30330.01,CEA_18COL_SR11_202603,Sub-Report 11 Fuel-wise details Coal/Lignite/Multi-fuel
+2025-26,2026,Coal based - Central sector,440658.60,CEA_18COL_SR11_202603,Sub-Report 11 ownership subtotal
+2025-26,2026,Coal based - Private (non-IPP),16133.46,CEA_18COL_SR11_202603,Sub-Report 11 ownership subtotal
+2025-26,2026,Coal based - Private IPP,415840.71,CEA_18COL_SR11_202603,Sub-Report 11 ownership subtotal
+2025-26,2026,Coal based - State,377706.06,CEA_18COL_SR11_202603,Sub-Report 11 ownership subtotal
+2025-26,2026,Gas & liquid fuel - Central sector only,9079.16,CEA_18COL_SR12_202603,Sub-Report 12 Gas and liquid fuel (central sector only; no all-India total printed)

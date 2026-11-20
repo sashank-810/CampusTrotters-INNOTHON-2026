@@ -1,0 +1,12 @@
+item,period,value,unit,nature,use_in_project,source_id
+All-India electricity energy requirement (20th EPS; NEP 2022-32),2026-27,1907.8,BU,official projection of REQUIREMENT (not generation),external cross-check only,PIB_NEP_20230531
+All-India electricity energy requirement (20th EPS; NEP 2022-32),2031-32,2473.8,BU,official projection of REQUIREMENT (not generation),external cross-check only,PIB_NEP_20230531
+All-India generation programme incl. RE and Bhutan import (LGBR 2025-26),2025-26,2000,BU,official TARGET (not actual),external cross-check only,CEA_LGBR_2025_26
+LGBR 2025-26 programme: thermal total,2025-26,1503,BU,official TARGET,context only,CEA_LGBR_2025_26
+LGBR 2025-26 programme: nuclear,2025-26,57,BU,official TARGET,context only,CEA_LGBR_2025_26
+LGBR 2025-26 programme: hydro,2025-26,156,BU,official TARGET,context only,CEA_LGBR_2025_26
+LGBR 2025-26 programme: Bhutan imports,2025-26,9,BU,official TARGET,context only,CEA_LGBR_2025_26
+LGBR 2025-26 programme: renewables excl. large hydro,2025-26,275,BU,official TARGET,context only,CEA_LGBR_2025_26
+IMF WEO Oct-2026 real GDP growth (as reported by secondary news source),2025-26,7.8,percent,reported estimate,anchors near-term GDP growth assumption,IMF_WEO_OCT2026_VIA_POLICYEDGE
+IMF WEO Oct-2026 real GDP growth (as reported by secondary news source),2026-27,7.0,percent,reported projection,anchors near-term GDP growth assumption,IMF_WEO_OCT2026_VIA_POLICYEDGE
+IMF WEO Oct-2026 real GDP growth (as reported by secondary news source),2027-28,7.0,percent,reported projection,anchors near-term GDP growth assumption,IMF_WEO_OCT2026_VIA_POLICYEDGE

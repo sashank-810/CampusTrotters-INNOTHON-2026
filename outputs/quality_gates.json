@@ -1,0 +1,44 @@
+{
+  "organizer_sha256": "f8f98adfc00457f3cd6033193722503fc481250d19ec37e0c692b35450d7bd4f",
+  "organizer_sha256_ok": true,
+  "pytest_summary": "48 passed, 1 warning in 73.28s (0:01:13)",
+  "pytest_skips": [],
+  "pytest_ok": true,
+  "validation": "185/186 passed",
+  "validation_failed_ids": [
+    "PSAG-GR-2011"
+  ],
+  "validation_only_expected_failure": true,
+  "conservation_ok": true,
+  "default_allocation_statuses": {
+    "solved": 66
+  },
+  "default_hydro_max_excess_over_original_ceiling_twh": 3.0411229090532288e-12,
+  "default_hydro_within_original_ceiling": true,
+  "hydro_20pct_case": {
+    "status": "infeasible_under_indicative_hydro_ceiling",
+    "required_twh": 1062.437,
+    "original_ceiling_twh": 480.363
+  },
+  "hydro_20pct_flagged_infeasible": true,
+  "central_fy2047": {
+    "domestic": 5312.183,
+    "imports": 7.804,
+    "total": 5319.987
+  },
+  "headline_preserved": true,
+  "summary_matches": true,
+  "deck_data_matches": true,
+  "dashboard_code_path_matches": true,
+  "fy2026_fuel_split_value_types": [
+    "derived_residual",
+    "external_observed"
+  ],
+  "fy2025_fuel_split_value_types": [
+    "estimated_split"
+  ],
+  "core_model_gates_passed": true,
+  "streamlit_installed": true,
+  "dashboard_real_runtime": "VERIFIED (AppTest passed in this run)",
+  "note": "core_model_gates_passed does NOT imply the dashboard ran under real Streamlit."
+}

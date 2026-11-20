@@ -1,0 +1,11 @@
+# Core pipeline; exact final-test versions are documented in constraints-tested.txt.
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+matplotlib>=3.8
+# Dashboard; real Streamlit AppTest passed 17 cases in the final-test environment.
+streamlit>=1.36,<2
+# Tests
+pytest>=8
+# Optional: rebuild the presentation
+python-pptx>=1.0

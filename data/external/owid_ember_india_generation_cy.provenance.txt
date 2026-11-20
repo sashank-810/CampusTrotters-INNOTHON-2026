@@ -1,0 +1,5 @@
+Extracted from owid-energy-data.csv
+source_sha256=266f2e2baad7975351bc9bb4aa061d22b1da9fe4c47d51d2ac6071e01e171f76
+owid_repo_commit=f8de88a4f6f9cab44f1cf606047cbd6c4414042c
+units: generation/demand/imports in TWh (calendar year); gdp in 2011 international $ (Maddison), population persons
+generation source per OWID codebook: Ember Yearly Electricity Data (2026); Energy Institute Statistical Review (2025)

@@ -1,0 +1,153 @@
+state_ut,cea_region,year,population_thousand,population_basis,urban_pct,urban_thousand_table9,source_id
+"Jammu & Kashmir",NR,2021,13408,TG Table 8 (official projection),30.03,,TG_POP_PROJ_2020
+"Jammu & Kashmir",NR,2026,13896,TG Table 8 (official projection),31.31,,TG_POP_PROJ_2020
+"Jammu & Kashmir",NR,2031,14361,TG Table 8 (official projection),32.62,,TG_POP_PROJ_2020
+"Jammu & Kashmir",NR,2036,14747,TG Table 8 (official projection),33.94,,TG_POP_PROJ_2020
+"Ladakh",NR,2021,297,TG Table 8 (official projection),29.63,,TG_POP_PROJ_2020
+"Ladakh",NR,2026,305,TG Table 8 (official projection),33.09,,TG_POP_PROJ_2020
+"Ladakh",NR,2031,312,TG Table 8 (official projection),36.9,,TG_POP_PROJ_2020
+"Ladakh",NR,2036,316,TG Table 8 (official projection),40.85,,TG_POP_PROJ_2020
+"Himachal Pradesh",NR,2021,7394,TG Table 8 (official projection),10.27,,TG_POP_PROJ_2020
+"Himachal Pradesh",NR,2026,7579,TG Table 8 (official projection),10.38,,TG_POP_PROJ_2020
+"Himachal Pradesh",NR,2031,7712,TG Table 8 (official projection),10.5,,TG_POP_PROJ_2020
+"Himachal Pradesh",NR,2036,7785,TG Table 8 (official projection),10.62,,TG_POP_PROJ_2020
+"Punjab",NR,2021,30339,TG Table 8 (official projection),41.1,,TG_POP_PROJ_2020
+"Punjab",NR,2026,31318,TG Table 8 (official projection),42.92,,TG_POP_PROJ_2020
+"Punjab",NR,2031,32087,TG Table 8 (official projection),44.75,,TG_POP_PROJ_2020
+"Punjab",NR,2036,32658,TG Table 8 (official projection),46.63,,TG_POP_PROJ_2020
+"Haryana",NR,2021,29483,TG Table 8 (official projection),40.92,,TG_POP_PROJ_2020
+"Haryana",NR,2026,31299,TG Table 8 (official projection),43.84,,TG_POP_PROJ_2020
+"Haryana",NR,2031,32946,TG Table 8 (official projection),46.73,,TG_POP_PROJ_2020
+"Haryana",NR,2036,34469,TG Table 8 (official projection),49.59,,TG_POP_PROJ_2020
+"NCT of Delhi",NR,2021,20571,TG Table 8 (official projection),99.35,,TG_POP_PROJ_2020
+"NCT of Delhi",NR,2026,22540,TG Table 8 (official projection),99.8,,TG_POP_PROJ_2020
+"NCT of Delhi",NR,2031,24552,TG Table 8 (official projection),100.0,,TG_POP_PROJ_2020
+"NCT of Delhi",NR,2036,26591,TG Table 8 (official projection),100.0,,TG_POP_PROJ_2020
+"Rajasthan",NR,2021,79281,TG Table 8 (official projection),26.33,,TG_POP_PROJ_2020
+"Rajasthan",NR,2026,83642,TG Table 8 (official projection),27.04,,TG_POP_PROJ_2020
+"Rajasthan",NR,2031,87198,TG Table 8 (official projection),27.74,,TG_POP_PROJ_2020
+"Rajasthan",NR,2036,90563,TG Table 8 (official projection),28.45,,TG_POP_PROJ_2020
+"Uttar Pradesh",NR,2021,230907,TG Table 8 (official projection),23.74,,TG_POP_PROJ_2020
+"Uttar Pradesh",NR,2026,242859,TG Table 8 (official projection),24.46,,TG_POP_PROJ_2020
+"Uttar Pradesh",NR,2031,251963,TG Table 8 (official projection),25.17,,TG_POP_PROJ_2020
+"Uttar Pradesh",NR,2036,258990,TG Table 8 (official projection),25.9,,TG_POP_PROJ_2020
+"Chandigarh",NR,2021,1208,TG Table 8 (official projection),99.7,,TG_POP_PROJ_2020
+"Chandigarh",NR,2026,1267,TG Table 8 (official projection),100.0,,TG_POP_PROJ_2020
+"Chandigarh",NR,2031,1318,TG Table 8 (official projection),100.0,,TG_POP_PROJ_2020
+"Chandigarh",NR,2036,1360,TG Table 8 (official projection),100.0,,TG_POP_PROJ_2020
+"Uttarakhand",NR,2021,11399,TG Table 8 (official projection),34.96,,TG_POP_PROJ_2020
+"Uttarakhand",NR,2026,11993,TG Table 8 (official projection),37.3,,TG_POP_PROJ_2020
+"Uttarakhand",NR,2031,12524,TG Table 8 (official projection),39.64,,TG_POP_PROJ_2020
+"Uttarakhand",NR,2036,12974,TG Table 8 (official projection),42.0,,TG_POP_PROJ_2020
+"Bihar",ER,2021,123083,TG Table 8 (official projection),12.12,,TG_POP_PROJ_2020
+"Bihar",ER,2026,132265,TG Table 8 (official projection),12.52,,TG_POP_PROJ_2020
+"Bihar",ER,2031,141041,TG Table 8 (official projection),12.9,,TG_POP_PROJ_2020
+"Bihar",ER,2036,148576,TG Table 8 (official projection),13.29,,TG_POP_PROJ_2020
+"West Bengal",ER,2021,98125,TG Table 8 (official projection),35.95,,TG_POP_PROJ_2020
+"West Bengal",ER,2026,100522,TG Table 8 (official projection),38.05,,TG_POP_PROJ_2020
+"West Bengal",ER,2031,102167,TG Table 8 (official projection),40.2,,TG_POP_PROJ_2020
+"West Bengal",ER,2036,102931,TG Table 8 (official projection),42.41,,TG_POP_PROJ_2020
+"Jharkhand",ER,2021,38471,TG Table 8 (official projection),25.83,,TG_POP_PROJ_2020
+"Jharkhand",ER,2026,40958,TG Table 8 (official projection),26.69,,TG_POP_PROJ_2020
+"Jharkhand",ER,2031,43209,TG Table 8 (official projection),27.54,,TG_POP_PROJ_2020
+"Jharkhand",ER,2036,45155,TG Table 8 (official projection),28.38,,TG_POP_PROJ_2020
+"Odisha",ER,2021,45696,TG Table 8 (official projection),18.47,,TG_POP_PROJ_2020
+"Odisha",ER,2026,47147,TG Table 8 (official projection),19.38,,TG_POP_PROJ_2020
+"Odisha",ER,2031,48259,TG Table 8 (official projection),20.32,,TG_POP_PROJ_2020
+"Odisha",ER,2036,49025,TG Table 8 (official projection),21.28,,TG_POP_PROJ_2020
+"Sikkim",ER,2021,677,TG Table 8 (official projection),44.93,,TG_POP_PROJ_2020
+"Sikkim",ER,2026,708,TG Table 8 (official projection),55.23,,TG_POP_PROJ_2020
+"Sikkim",ER,2031,736,TG Table 8 (official projection),65.2,,TG_POP_PROJ_2020
+"Sikkim",ER,2036,759,TG Table 8 (official projection),74.61,,TG_POP_PROJ_2020
+"Andaman & Nicobar Islands",ER,2021,400,TG Table 8 (official projection),42.95,,TG_POP_PROJ_2020
+"Andaman & Nicobar Islands",ER,2026,406,TG Table 8 (official projection),45.8,,TG_POP_PROJ_2020
+"Andaman & Nicobar Islands",ER,2031,410,TG Table 8 (official projection),48.73,,TG_POP_PROJ_2020
+"Andaman & Nicobar Islands",ER,2036,413,TG Table 8 (official projection),51.55,,TG_POP_PROJ_2020
+"Assam",NER,2021,35043,TG Table 8 (official projection),15.32,,TG_POP_PROJ_2020
+"Assam",NER,2026,36717,TG Table 8 (official projection),15.93,,TG_POP_PROJ_2020
+"Assam",NER,2031,38196,TG Table 8 (official projection),16.54,,TG_POP_PROJ_2020
+"Assam",NER,2036,39399,TG Table 8 (official projection),17.16,,TG_POP_PROJ_2020
+"Arunachal Pradesh",NER,2021,1533,TG Table 8 (official projection),25.17,,TG_POP_PROJ_2020
+"Arunachal Pradesh",NER,2026,1604,TG Table 8 (official projection),26.3,,TG_POP_PROJ_2020
+"Arunachal Pradesh",NER,2031,1669,TG Table 8 (official projection),27.45,,TG_POP_PROJ_2020
+"Arunachal Pradesh",NER,2036,1719,TG Table 8 (official projection),28.56,,TG_POP_PROJ_2020
+"Nagaland",NER,2021,2192,TG Table 8 (official projection),42.92,,TG_POP_PROJ_2020
+"Nagaland",NER,2026,2294,TG Table 8 (official projection),50.13,,TG_POP_PROJ_2020
+"Nagaland",NER,2031,2386,TG Table 8 (official projection),57.3,,TG_POP_PROJ_2020
+"Nagaland",NER,2036,2458,TG Table 8 (official projection),64.32,,TG_POP_PROJ_2020
+"Manipur",NER,2021,3165,TG Table 8 (official projection),31.88,,TG_POP_PROJ_2020
+"Manipur",NER,2026,3311,TG Table 8 (official projection),33.22,,TG_POP_PROJ_2020
+"Manipur",NER,2031,3444,TG Table 8 (official projection),34.56,,TG_POP_PROJ_2020
+"Manipur",NER,2036,3548,TG Table 8 (official projection),35.91,,TG_POP_PROJ_2020
+"Mizoram",NER,2021,1215.8,DERIVED = Table 9 urban persons / Table 10 urban % (Table 8 row not extracted),54.53,663,TG_POP_PROJ_2020
+"Mizoram",NER,2026,1272.2,DERIVED = Table 9 urban persons / Table 10 urban % (Table 8 row not extracted),55.73,709,TG_POP_PROJ_2020
+"Mizoram",NER,2031,1323.1,DERIVED = Table 9 urban persons / Table 10 urban % (Table 8 row not extracted),56.91,753,TG_POP_PROJ_2020
+"Mizoram",NER,2036,1363.3,DERIVED = Table 9 urban persons / Table 10 urban % (Table 8 row not extracted),58.02,791,TG_POP_PROJ_2020
+"Tripura",NER,2021,4070.9,DERIVED = Table 9 urban persons / Table 10 urban % (Table 8 row not extracted),36.97,1505,TG_POP_PROJ_2020
+"Tripura",NER,2026,4259.9,DERIVED = Table 9 urban persons / Table 10 urban % (Table 8 row not extracted),42.56,1813,TG_POP_PROJ_2020
+"Tripura",NER,2031,4429.7,DERIVED = Table 9 urban persons / Table 10 urban % (Table 8 row not extracted),48.22,2136,TG_POP_PROJ_2020
+"Tripura",NER,2036,4564.9,DERIVED = Table 9 urban persons / Table 10 urban % (Table 8 row not extracted),53.89,2460,TG_POP_PROJ_2020
+"Meghalaya",NER,2021,3287.9,DERIVED = Table 9 urban persons / Table 10 urban % (Table 8 row not extracted),20.56,676,TG_POP_PROJ_2020
+"Meghalaya",NER,2026,3440.8,DERIVED = Table 9 urban persons / Table 10 urban % (Table 8 row not extracted),20.78,715,TG_POP_PROJ_2020
+"Meghalaya",NER,2031,3577.5,DERIVED = Table 9 urban persons / Table 10 urban % (Table 8 row not extracted),21.02,752,TG_POP_PROJ_2020
+"Meghalaya",NER,2036,3685.9,DERIVED = Table 9 urban persons / Table 10 urban % (Table 8 row not extracted),21.27,784,TG_POP_PROJ_2020
+"Chhattisgarh",WR,2021,29493,TG Table 8 (official projection),26.48,,TG_POP_PROJ_2020
+"Chhattisgarh",WR,2026,31211,TG Table 8 (official projection),28.08,,TG_POP_PROJ_2020
+"Chhattisgarh",WR,2031,32719,TG Table 8 (official projection),29.67,,TG_POP_PROJ_2020
+"Chhattisgarh",WR,2036,34081,TG Table 8 (official projection),31.28,,TG_POP_PROJ_2020
+"Madhya Pradesh",WR,2021,84516,TG Table 8 (official projection),28.77,,TG_POP_PROJ_2020
+"Madhya Pradesh",WR,2026,89673,TG Table 8 (official projection),29.32,,TG_POP_PROJ_2020
+"Madhya Pradesh",WR,2031,94057,TG Table 8 (official projection),29.86,,TG_POP_PROJ_2020
+"Madhya Pradesh",WR,2036,97804,TG Table 8 (official projection),30.4,,TG_POP_PROJ_2020
+"Gujarat",WR,2021,69788,TG Table 8 (official projection),47.74,,TG_POP_PROJ_2020
+"Gujarat",WR,2026,74086,TG Table 8 (official projection),50.2,,TG_POP_PROJ_2020
+"Gujarat",WR,2031,77931,TG Table 8 (official projection),52.61,,TG_POP_PROJ_2020
+"Gujarat",WR,2036,81316,TG Table 8 (official projection),54.99,,TG_POP_PROJ_2020
+"Maharashtra",WR,2021,124437,TG Table 8 (official projection),47.98,,TG_POP_PROJ_2020
+"Maharashtra",WR,2026,129308,TG Table 8 (official projection),49.35,,TG_POP_PROJ_2020
+"Maharashtra",WR,2031,133451,TG Table 8 (official projection),50.71,,TG_POP_PROJ_2020
+"Maharashtra",WR,2036,136764,TG Table 8 (official projection),52.08,,TG_POP_PROJ_2020
+"Goa",WR,2021,1559,TG Table 8 (official projection),73.65,,TG_POP_PROJ_2020
+"Goa",WR,2026,1599,TG Table 8 (official projection),78.94,,TG_POP_PROJ_2020
+"Goa",WR,2031,1633,TG Table 8 (official projection),83.81,,TG_POP_PROJ_2020
+"Goa",WR,2036,1663,TG Table 8 (official projection),88.23,,TG_POP_PROJ_2020
+"Daman & Diu",WR,2021,469,TG Table 8 (official projection),94.0,,TG_POP_PROJ_2020
+"Daman & Diu",WR,2026,705,TG Table 8 (official projection),97.28,,TG_POP_PROJ_2020
+"Daman & Diu",WR,2031,1137,TG Table 8 (official projection),98.67,,TG_POP_PROJ_2020
+"Daman & Diu",WR,2036,1969,TG Table 8 (official projection),99.31,,TG_POP_PROJ_2020
+"Dadra & Nagar Haveli",WR,2021,608,TG Table 8 (official projection),67.09,,TG_POP_PROJ_2020
+"Dadra & Nagar Haveli",WR,2026,836,TG Table 8 (official projection),73.35,,TG_POP_PROJ_2020
+"Dadra & Nagar Haveli",WR,2031,1178,TG Table 8 (official projection),77.77,,TG_POP_PROJ_2020
+"Dadra & Nagar Haveli",WR,2036,1703,TG Table 8 (official projection),80.7,,TG_POP_PROJ_2020
+"Andhra Pradesh",SR,2021,52787,TG Table 8 (official projection),35.27,,TG_POP_PROJ_2020
+"Andhra Pradesh",SR,2026,53709,TG Table 8 (official projection),38.3,,TG_POP_PROJ_2020
+"Andhra Pradesh",SR,2031,54175,TG Table 8 (official projection),41.46,,TG_POP_PROJ_2020
+"Andhra Pradesh",SR,2036,54252,TG Table 8 (official projection),44.74,,TG_POP_PROJ_2020
+"Karnataka",SR,2021,66845,TG Table 8 (official projection),43.45,,TG_POP_PROJ_2020
+"Karnataka",SR,2026,68962,TG Table 8 (official projection),45.85,,TG_POP_PROJ_2020
+"Karnataka",SR,2031,70652,TG Table 8 (official projection),48.28,,TG_POP_PROJ_2020
+"Karnataka",SR,2036,71948,TG Table 8 (official projection),50.75,,TG_POP_PROJ_2020
+"Kerala",SR,2021,35489,TG Table 8 (official projection),71.01,,TG_POP_PROJ_2020
+"Kerala",SR,2026,36207,TG Table 8 (official projection),81.38,,TG_POP_PROJ_2020
+"Kerala",SR,2031,36695,TG Table 8 (official projection),90.07,,TG_POP_PROJ_2020
+"Kerala",SR,2036,36949,TG Table 8 (official projection),96.43,,TG_POP_PROJ_2020
+"Tamil Nadu",SR,2021,76402,TG Table 8 (official projection),52.79,,TG_POP_PROJ_2020
+"Tamil Nadu",SR,2026,77546,TG Table 8 (official projection),55.02,,TG_POP_PROJ_2020
+"Tamil Nadu",SR,2031,78082,TG Table 8 (official projection),57.3,,TG_POP_PROJ_2020
+"Tamil Nadu",SR,2036,78067,TG Table 8 (official projection),59.63,,TG_POP_PROJ_2020
+"Lakshadweep",SR,2021,68,TG Table 8 (official projection),96.78,,TG_POP_PROJ_2020
+"Lakshadweep",SR,2026,70,TG Table 8 (official projection),100.0,,TG_POP_PROJ_2020
+"Lakshadweep",SR,2031,71,TG Table 8 (official projection),100.0,,TG_POP_PROJ_2020
+"Lakshadweep",SR,2036,71,TG Table 8 (official projection),100.0,,TG_POP_PROJ_2020
+"Puducherry",SR,2021,1571,TG Table 8 (official projection),69.88,,TG_POP_PROJ_2020
+"Puducherry",SR,2026,1757,TG Table 8 (official projection),70.63,,TG_POP_PROJ_2020
+"Puducherry",SR,2031,1961,TG Table 8 (official projection),71.25,,TG_POP_PROJ_2020
+"Puducherry",SR,2036,2184,TG Table 8 (official projection),71.81,,TG_POP_PROJ_2020
+"Telangana",SR,2021,37725,TG Table 8 (official projection),46.11,,TG_POP_PROJ_2020
+"Telangana",SR,2026,38636,TG Table 8 (official projection),49.78,,TG_POP_PROJ_2020
+"Telangana",SR,2031,39207,TG Table 8 (official projection),53.52,,TG_POP_PROJ_2020
+"Telangana",SR,2036,39467,TG Table 8 (official projection),57.32,,TG_POP_PROJ_2020
+"INDIA",ALL INDIA,2021,1363006,TG Table 8 (official projection),34.43,,TG_POP_PROJ_2020
+"INDIA",ALL INDIA,2026,1425908,TG Table 8 (official projection),36.01,,TG_POP_PROJ_2020
+"INDIA",ALL INDIA,2031,1478775,TG Table 8 (official projection),37.55,,TG_POP_PROJ_2020
+"INDIA",ALL INDIA,2036,1522288,TG Table 8 (official projection),39.06,,TG_POP_PROJ_2020

@@ -1,0 +1,7 @@
+fy_label,fy_end_year,region,requirement_lgbr_forecast_mu,requirement_actual_mu,availability_lgbr_forecast_mu,availability_actual_mu,metric_nature,source_id
+2024-25,2025,NR,510585,518908,550390,517956,CONSUMPTION-SIDE energy requirement (NOT generation),CEA_LGBR_2025_26_ANNEXVA
+2024-25,2025,WR,544399,530207,534320,529984,CONSUMPTION-SIDE energy requirement (NOT generation),CEA_LGBR_2025_26_ANNEXVA
+2024-25,2025,SR,448705,425377,459141,425353,CONSUMPTION-SIDE energy requirement (NOT generation),CEA_LGBR_2025_26_ANNEXVA
+2024-25,2025,ER,207920,200134,209152,199761,CONSUMPTION-SIDE energy requirement (NOT generation),CEA_LGBR_2025_26_ANNEXVA
+2024-25,2025,NER,22753,20561,23518,20545,CONSUMPTION-SIDE energy requirement (NOT generation),CEA_LGBR_2025_26_ANNEXVA
+2024-25,2025,ALL INDIA,1734361,1695188,1776520,1693599,CONSUMPTION-SIDE energy requirement (NOT generation),CEA_LGBR_2025_26_ANNEXVA

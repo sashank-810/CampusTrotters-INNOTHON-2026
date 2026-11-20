@@ -1,0 +1,19 @@
+{
+  "selected_model": "rw_drift",
+  "selection_rule": "min mean WAPE over CEA-FY and Ember-CY rolling-origin backtests among interval models",
+  "mean_wape_pct": {
+    "holt_damped": 6.522,
+    "loglinear_ols": 5.575,
+    "rw_drift": 4.813,
+    "trend_cagr": 5.149
+  },
+  "holt_params_full_sample": {
+    "holt_damped": {
+      "alpha": 0.99,
+      "beta": 0.02818436026781208,
+      "phi": 0.98
+    }
+  },
+  "cea_obs": 17,
+  "ember_obs": 26
+}

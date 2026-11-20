@@ -1,0 +1,10 @@
+# Independently exercised on Python 3.12, 20 Nov 2026.
+# Install reproducible tested direct dependencies with:
+# python -m pip install -r requirements.txt -c constraints-tested.txt
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.17.0
+matplotlib==3.10.8
+streamlit==1.67.0
+pytest==9.2.0
+python-pptx==1.0.2
